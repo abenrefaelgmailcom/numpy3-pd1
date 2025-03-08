@@ -1,0 +1,25 @@
+# dataScience-Lec4-5-MAR-25
+ numpy continue
+ shift+tab= to see the help of the function
+ * ones()- creates array with 1 values, dtype default=float
+ * functions on images: same functionality works on array of numbers:
+ ```
+ from skimage import io
+ photo=io.imread('image path') # same path of the notbook or, full path
+ ```
+ * convert the image to 2d array- shape=tuple (legth,numbers)
+ * each cell contain the cell colors the rgb colors 
+ * to view the photo:
+ ```
+   import matplotlit.pylot as plt
+   plt.imshow(photo)
+   ```
+ * np.where(photo>100,255,0)#for each cell set 255 if true, else set 0
+ * plt.imshow(photo.transpose(1,0,2) # y1,x0,z2)# rotate the image
+ * another option import pil to rotate the photo by degrees
+   ```
+   # Imports PIL module
+   from PIL import Image
+   # open method used to open different extension image file
+   im = Image.open(r"C:\Users\System-Pc\Desktop\ybear.jpg")
+ 
