@@ -1,0 +1,64 @@
+{
+  "cells": [
+   {
+    "cell_type": "code",
+    "execution_count": 34,
+    "id": "134e63ae-7f91-4152-b836-d5f1ded7d580",
+    "metadata": {},
+    "outputs": [
+     {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": [
+       "[1 1]\n",
+       "[-1  1  1]\n",
+       "[1 1]\n",
+       "[-1  1  1]\n"
+      ]
+     }
+    ],
+    "source": [
+     "import numpy as np\n",
+     "ones=np.ones(2,dtype=int)\n",
+     "print(ones)\n",
+     "\n",
+     "ones=np.insert(ones,0,-1)\n",
+     "print(ones)\n",
+     "value=np.delete(ones,0)\n",
+     "print(value)\n",
+     "print(ones)"
+    ]
+lesson 3 summery part 1
+
+},
+   {
+    "cell_type": "code",
+    "execution_count": null,
+    "id": "46134d05-0009-40de-9885-4dc86d7d3181",
+    "metadata": {},
+    "outputs": [],
+    "source": []
+   }
+  ],
+  "metadata": {
+   "kernelspec": {
+    "display_name": "Python [conda env:base] *",
+    "language": "python",
+    "name": "conda-base-py"
+   },
+   "language_info": {
+    "codemirror_mode": {
+     "name": "ipython",
+     "version": 3
+    },
+    "file_extension": ".py",
+    "mimetype": "text/x-python",
+    "name": "python",
+    "nbconvert_exporter": "python",
+    "pygments_lexer": "ipython3",
+    "version": "3.12.7"
+   }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+ }
